@@ -1,0 +1,28 @@
+[23:22] relu l1=3 plain
+saved pythia-70m-deduped_L3_relu_l13.0w0.05_x8_plain_2M_s1 in 2.9 min -> whitening/results/pythia-70m-deduped_L3_relu_l13.0w0.05_x8_plain_2M_s1
+[23:25] relu l1=7 plain
+saved pythia-70m-deduped_L3_relu_l17.0w0.05_x8_plain_2M_s1 in 2.9 min -> whitening/results/pythia-70m-deduped_L3_relu_l17.0w0.05_x8_plain_2M_s1
+[23:28] relu l1=6 --whiten
+saved pythia-70m-deduped_L3_relu_l16.0w0.05_x8_white_2M_s1 in 6.5 min -> whitening/results/pythia-70m-deduped_L3_relu_l16.0w0.05_x8_white_2M_s1
+[23:35] relu l1=8 --whiten
+saved pythia-70m-deduped_L3_relu_l18.0w0.05_x8_white_2M_s1 in 6.5 min -> whitening/results/pythia-70m-deduped_L3_relu_l18.0w0.05_x8_white_2M_s1
+[23:41] relu l1=12 --whiten
+saved pythia-70m-deduped_L3_relu_l112.0w0.05_x8_white_2M_s1 in 6.9 min -> whitening/results/pythia-70m-deduped_L3_relu_l112.0w0.05_x8_white_2M_s1
+[23:48] relu l1=16 --whiten
+saved pythia-70m-deduped_L3_relu_l116.0w0.05_x8_white_2M_s1 in 7.0 min -> whitening/results/pythia-70m-deduped_L3_relu_l116.0w0.05_x8_white_2M_s1
+[23:56] eval
+pythia-70m-deduped_L3_relu_l10.5w0.05_x8_white_2M_s1 {"ce_loss_score": 0.9497, "ce_loss_with_sae": 5.6942, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.9532, "explained_variance": 0.9345, "mse": 27.2488, "l0": 1788.5602, "l1": 710.244, "dead_frac": 0.0}
+pythia-70m-deduped_L3_relu_l11.0w0.05_x8_white_2M_s1 {"ce_loss_score": 0.8771, "ce_loss_with_sae": 6.1245, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.8855, "explained_variance": 0.8785, "mse": 50.5737, "l0": 1306.9702, "l1": 478.9846, "dead_frac": 0.0}
+pythia-70m-deduped_L3_relu_l110.0w0.05_x8_plain_2M_s1 {"ce_loss_score": 0.2672, "ce_loss_with_sae": 9.7402, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.276, "explained_variance": 0.7282, "mse": 113.1172, "l0": 124.0561, "l1": 86.8537, "dead_frac": 0.426}
+pythia-70m-deduped_L3_relu_l112.0w0.05_x8_white_2M_s1 {"ce_loss_score": 0.1101, "ce_loss_with_sae": 10.6713, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.1153, "explained_variance": -0.0131, "mse": 421.6386, "l0": 0.1739, "l1": 0.0027, "dead_frac": 0.853}
+pythia-70m-deduped_L3_relu_l115.0w0.05_x8_plain_2M_s1 {"ce_loss_score": 0.1305, "ce_loss_with_sae": 10.5505, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.1368, "explained_variance": 0.6382, "mse": 150.5941, "l0": 64.7827, "l1": 63.458, "dead_frac": 0.4946}
+pythia-70m-deduped_L3_relu_l116.0w0.05_x8_white_2M_s1 {"ce_loss_score": 0.1102, "ce_loss_with_sae": 10.6706, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.1154, "explained_variance": -0.0131, "mse": 421.6436, "l0": 0.0997, "l1": 0.0002, "dead_frac": 0.8086}
+pythia-70m-deduped_L3_relu_l12.0w0.05_x8_white_2M_s1 {"ce_loss_score": 0.7269, "ce_loss_with_sae": 7.0152, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.736, "explained_variance": 0.835, "mse": 68.6779, "l0": 828.1624, "l1": 211.3231, "dead_frac": 0.0}
+pythia-70m-deduped_L3_relu_l120.0w0.05_x8_plain_2M_s1 {"ce_loss_score": 0.0731, "ce_loss_with_sae": 10.8908, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.0797, "explained_variance": 0.5746, "mse": 177.0354, "l0": 23.6075, "l1": 47.8785, "dead_frac": 0.5388}
+pythia-70m-deduped_L3_relu_l13.0w0.05_x8_plain_2M_s1 {"ce_loss_score": 0.6065, "ce_loss_with_sae": 7.7287, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.6147, "explained_variance": 0.8603, "mse": 58.1491, "l0": 335.2031, "l1": 123.405, "dead_frac": 0.0701}
+pythia-70m-deduped_L3_relu_l14.0w0.05_x8_white_2M_s1 {"ce_loss_score": 0.5267, "ce_loss_with_sae": 8.2018, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.5356, "explained_variance": 0.7703, "mse": 95.6172, "l0": 240.9387, "l1": 38.2988, "dead_frac": 0.0}
+pythia-70m-deduped_L3_relu_l15.0w0.05_x8_plain_2M_s1 {"ce_loss_score": 0.507, "ce_loss_with_sae": 8.3184, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.5182, "explained_variance": 0.8213, "mse": 74.3884, "l0": 227.1342, "l1": 107.9827, "dead_frac": 0.218}
+pythia-70m-deduped_L3_relu_l16.0w0.05_x8_white_2M_s1 {"ce_loss_score": 0.3173, "ce_loss_with_sae": 9.4432, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.3255, "explained_variance": 0.6799, "mse": 133.2171, "l0": 81.4733, "l1": 10.4345, "dead_frac": 0.0498}
+pythia-70m-deduped_L3_relu_l17.0w0.05_x8_plain_2M_s1 {"ce_loss_score": 0.3948, "ce_loss_with_sae": 8.9835, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.4064, "explained_variance": 0.782, "mse": 90.7132, "l0": 170.9853, "l1": 98.8595, "dead_frac": 0.3359}
+pythia-70m-deduped_L3_relu_l18.0w0.05_x8_white_2M_s1 {"ce_loss_score": 0.1366, "ce_loss_with_sae": 10.514, "ce_loss_without_sae": 5.3962, "kl_div_score": 0.1424, "explained_variance": 0.5958, "mse": 168.229, "l0": 4.908, "l1": 1.023, "dead_frac": 0.6846}
+[23:57] done

@@ -1,0 +1,14 @@
+[13:12] train seed=2 eps=0.1
+[13:12] train seed=2 eps=0.1
+saved pythia-70m-deduped_L3_topk_k32_x8_whitee0.1_10M_s2 in 23.5 min -> whitening/results/pythia-70m-deduped_L3_topk_k32_x8_whitee0.1_10M_s2
+[13:35] train seed=2 eps=1
+saved pythia-70m-deduped_L3_topk_k32_x8_whitee1_10M_s2 in 27.1 min -> whitening/results/pythia-70m-deduped_L3_topk_k32_x8_whitee1_10M_s2
+[14:03] train seed=2 eps=10
+saved pythia-70m-deduped_L3_topk_k32_x8_whitee10_10M_s2 in 29.7 min -> whitening/results/pythia-70m-deduped_L3_topk_k32_x8_whitee10_10M_s2
+[14:33] train seed=3 eps=0.1
+saved pythia-70m-deduped_L3_topk_k32_x8_whitee0.1_10M_s3 in 64.4 min -> whitening/results/pythia-70m-deduped_L3_topk_k32_x8_whitee0.1_10M_s3
+[15:37] train seed=3 eps=1
+saved pythia-70m-deduped_L3_topk_k32_x8_whitee1_10M_s3 in 26.3 min -> whitening/results/pythia-70m-deduped_L3_topk_k32_x8_whitee1_10M_s3
+[16:03] train seed=3 eps=10
+saved pythia-70m-deduped_L3_topk_k32_x8_whitee10_10M_s3 in 26.2 min -> whitening/results/pythia-70m-deduped_L3_topk_k32_x8_whitee10_10M_s3
+[16:30] eval

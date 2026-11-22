@@ -1,0 +1,17 @@
+[17:37] train seed=3 eps=1
+saved pythia-70m-deduped_L3_topk_k32_x8_whitee1_10M_s3 in 25.6 min -> whitening/results/pythia-70m-deduped_L3_topk_k32_x8_whitee1_10M_s3
+[18:02] train seed=3 eps=10
+saved pythia-70m-deduped_L3_topk_k32_x8_whitee10_10M_s3 in 24.0 min -> whitening/results/pythia-70m-deduped_L3_topk_k32_x8_whitee10_10M_s3
+[18:27] eval
+pythia-70m-deduped_L3_topk_k32_x8_whitee0.01_10M_s1 {"ce_loss_score": 0.8899, "ce_loss_with_sae": 5.0034, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8864, "explained_variance": 0.9023, "mse": 40.5778, "l0": 32.0, "l1": 68.4466, "dead_frac": 0.0649}
+pythia-70m-deduped_L3_topk_k32_x8_whitee0.1_10M_s1 {"ce_loss_score": 0.8935, "ce_loss_with_sae": 4.9829, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8903, "explained_variance": 0.9131, "mse": 36.0775, "l0": 32.0, "l1": 51.699, "dead_frac": 0.0642}
+pythia-70m-deduped_L3_topk_k32_x8_whitee0.1_10M_s2 {"ce_loss_score": 0.897, "ce_loss_with_sae": 4.9626, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8933, "explained_variance": 0.9153, "mse": 35.1644, "l0": 32.0, "l1": 51.695, "dead_frac": 0.0642}
+pythia-70m-deduped_L3_topk_k32_x8_whitee0.1_10M_s3 {"ce_loss_score": 0.8963, "ce_loss_with_sae": 4.9664, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8935, "explained_variance": 0.914, "mse": 35.6978, "l0": 32.0, "l1": 51.6215, "dead_frac": 0.0596}
+pythia-70m-deduped_L3_topk_k32_x8_whitee1_10M_s1 {"ce_loss_score": 0.8973, "ce_loss_with_sae": 4.9609, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8935, "explained_variance": 0.9288, "mse": 29.5861, "l0": 32.0, "l1": 25.1629, "dead_frac": 0.0754}
+pythia-70m-deduped_L3_topk_k32_x8_whitee1_10M_s2 {"ce_loss_score": 0.8953, "ce_loss_with_sae": 4.9725, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8913, "explained_variance": 0.929, "mse": 29.5082, "l0": 32.0, "l1": 25.3199, "dead_frac": 0.0784}
+pythia-70m-deduped_L3_topk_k32_x8_whitee1_10M_s3 {"ce_loss_score": 0.8958, "ce_loss_with_sae": 4.9697, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8919, "explained_variance": 0.9284, "mse": 29.7433, "l0": 32.0, "l1": 25.2236, "dead_frac": 0.0825}
+pythia-70m-deduped_L3_topk_k32_x8_whitee10_10M_s1 {"ce_loss_score": 0.8824, "ce_loss_with_sae": 5.046, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8796, "explained_variance": 0.9329, "mse": 27.8478, "l0": 32.0, "l1": 9.7396, "dead_frac": 0.1167}
+pythia-70m-deduped_L3_topk_k32_x8_whitee10_10M_s2 {"ce_loss_score": 0.8828, "ce_loss_with_sae": 5.0436, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8799, "explained_variance": 0.9323, "mse": 28.1267, "l0": 32.0, "l1": 9.6352, "dead_frac": 0.127}
+pythia-70m-deduped_L3_topk_k32_x8_whitee10_10M_s3 {"ce_loss_score": 0.8835, "ce_loss_with_sae": 5.04, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8792, "explained_variance": 0.933, "mse": 27.8326, "l0": 32.0, "l1": 9.6771, "dead_frac": 0.1211}
+pythia-70m-deduped_L3_topk_k32_x8_whitee100_10M_s1 {"ce_loss_score": 0.8575, "ce_loss_with_sae": 5.1887, "ce_loss_without_sae": 4.374, "kl_div_score": 0.8554, "explained_variance": 0.926, "mse": 30.7325, "l0": 32.0, "l1": 3.359, "dead_frac": 0.2188}
+[18:33] done

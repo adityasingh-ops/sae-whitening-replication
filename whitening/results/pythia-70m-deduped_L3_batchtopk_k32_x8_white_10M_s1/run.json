@@ -1,0 +1,19 @@
+{
+  "model": "EleutherAI/pythia-70m-deduped",
+  "layer": 3,
+  "d_in": 512,
+  "arch": "batchtopk",
+  "k": 32,
+  "l1": 5.0,
+  "expansion": 8,
+  "whiten": true,
+  "tokens": 10000000,
+  "batch_tokens": 4096,
+  "context_size": 128,
+  "lr": 0.0003,
+  "device": "mps",
+  "wandb": false,
+  "seed": 1,
+  "name": "pythia-70m-deduped_L3_batchtopk_k32_x8_white_10M_s1",
+  "train_seconds": 1734.3
+}

@@ -1,0 +1,41 @@
+{
+  "n_directions": 512,
+  "spearman_variance_vs_importance": 0.861,
+  "share_of_variance_in_bottom_75pct_dirs": 0.0554,
+  "share_of_importance_in_bottom_75pct_dirs": 0.1424,
+  "n_dirs_with_nonpositive_importance": 120,
+  "per_sae": {
+    "pythia-70m-deduped_L3_topk_k32_x8_plain_10M_s1": {
+      "ce_delta": 0.8646,
+      "explained_variance": 0.9258,
+      "importance_weighted_damage": 0.2841
+    },
+    "pythia-70m-deduped_L3_topk_k32_x8_plain_10M_s2": {
+      "ce_delta": 0.8644,
+      "explained_variance": 0.9267,
+      "importance_weighted_damage": 0.2805
+    },
+    "pythia-70m-deduped_L3_topk_k32_x8_plain_10M_s3": {
+      "ce_delta": 0.8855,
+      "explained_variance": 0.9246,
+      "importance_weighted_damage": 0.2879
+    },
+    "pythia-70m-deduped_L3_topk_k32_x8_white_10M_s1": {
+      "ce_delta": 0.6446,
+      "explained_variance": 0.9012,
+      "importance_weighted_damage": 0.3271
+    },
+    "pythia-70m-deduped_L3_topk_k32_x8_white_10M_s2": {
+      "ce_delta": 0.6493,
+      "explained_variance": 0.9016,
+      "importance_weighted_damage": 0.3254
+    },
+    "pythia-70m-deduped_L3_topk_k32_x8_white_10M_s3": {
+      "ce_delta": 0.6245,
+      "explained_variance": 0.9005,
+      "importance_weighted_damage": 0.3238
+    }
+  },
+  "spearman_ce_delta_vs_explained_variance": 0.771,
+  "spearman_ce_delta_vs_weighted_damage": -0.6
+}

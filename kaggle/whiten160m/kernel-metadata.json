@@ -1,0 +1,13 @@
+{
+  "id": "adityasinghdev/whitening-pythia160m-topk",
+  "title": "whitening-pythia160m-topk",
+  "code_file": "run_whiten160m.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

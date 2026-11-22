@@ -1,0 +1,23 @@
+{
+  "model": "EleutherAI/pythia-70m-deduped",
+  "layer": 3,
+  "d_in": 512,
+  "arch": "relu",
+  "k": 32,
+  "l1": 3.0,
+  "l1_warmup_frac": 0.05,
+  "expansion": 8,
+  "whiten": false,
+  "tokens": 2000000,
+  "batch_tokens": 4096,
+  "context_size": 128,
+  "lr": 0.0003,
+  "device": "mps",
+  "wandb": false,
+  "seed": 1,
+  "data": "data/pile_train",
+  "n_checkpoints": 4,
+  "name": "pythia-70m-deduped_L3_relu_l13.0w0.05_x8_plain_2M_s1",
+  "train_seconds": 176.3,
+  "resumed_from": null
+}

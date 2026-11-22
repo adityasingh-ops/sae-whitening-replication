@@ -1,0 +1,22 @@
+{
+  "model": "EleutherAI/pythia-70m-deduped",
+  "layer": 3,
+  "n_seqs": 64,
+  "ctx": 128,
+  "batch": 16,
+  "sae_glob": "pythia-70m-deduped_L3_topk_k32_x8_*_10M_s*",
+  "max_dirs": null,
+  "device": "mps",
+  "out": "whitening/results/exp2",
+  "clean_loss": 3.0713674426078796,
+  "n_tokens": 8192,
+  "saes": [
+    "pythia-70m-deduped_L3_topk_k32_x8_plain_10M_s1",
+    "pythia-70m-deduped_L3_topk_k32_x8_plain_10M_s2",
+    "pythia-70m-deduped_L3_topk_k32_x8_plain_10M_s3",
+    "pythia-70m-deduped_L3_topk_k32_x8_white_10M_s1",
+    "pythia-70m-deduped_L3_topk_k32_x8_white_10M_s2",
+    "pythia-70m-deduped_L3_topk_k32_x8_white_10M_s3"
+  ],
+  "seconds": 686
+}
